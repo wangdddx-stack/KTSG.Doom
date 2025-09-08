@@ -80,10 +80,24 @@ window.addEventListener('resize',resize);
 
 // === 素材 ===
 const bgImg=new Image();
+bgImg.loading = "lazy";
+bgImg.src="your_background.png";
+
 const circleImg=new Image();
+circleImg.loading = "lazy";
+circleImg.src="circle.png";
+
 const starImg=new Image();
+starImg.loading = "lazy";
+starImg.src="star.png";
+
 const endCircleImg=new Image();
+endCircleImg.loading = "lazy";
+endCircleImg.src="endCircle.png";
+
 const endStarImg=new Image();
+endStarImg.loading = "lazy";
+endStarImg.src="endStar.png";
 
 // 固定图片路径
 bgImg.src = "bg.jpg";       // 背景  
@@ -203,6 +217,7 @@ running=true;
 </script>
 </body>
 </html>
+
 
 
 
